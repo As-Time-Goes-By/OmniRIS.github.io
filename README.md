@@ -1,4 +1,5 @@
-# Omni-Referring Image Segmentation
+
+<h1 align="center">Omni-Referring Image Segmentation</h1>
 
 **Authors:**
 Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun², Xiaoshuai Sun¹, Yiyi Zhou¹, Rongrong Ji¹
