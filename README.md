@@ -1,12 +1,6 @@
 
 <h1 align="center">Omni-Referring Image Segmentation</h1>
 
-**Authors:**
-Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun², Xiaoshuai Sun¹, Yiyi Zhou¹, Rongrong Ji¹
-
-¹ Key Laboratory of Multimedia Trusted Perception and Efficient Computing, Ministry of Education of China, Xiamen University
-² Youtu Lab, Tencent
-³ OpenGVLab, Shanghai AI Laboratory
 
 <div style="text-align:center">
 
