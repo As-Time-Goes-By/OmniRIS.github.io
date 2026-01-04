@@ -11,10 +11,7 @@ Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun², Xiao
 
 ---
 
-<figure>
-  <img src="fig1.png" width="600">
-  <figcaption>Figure 1. 网络结构示意图。</figcaption>
-</figure>
+![Figure 1: 网络结构示意图](fig1.png)
 
 ## Abstract
 
