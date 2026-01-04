@@ -10,7 +10,10 @@ Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun², Xiao
 [**📄 Paper (arXiv)**](https://arxiv.org/abs/2512.06862) | [**💻 Code **](https://github.com/As-Time-Goes-By/OmniSegNet) | [**💾 Dataset**](https://huggingface.co/datasets/TUZKI/OmniRef)
 
 ---
-![Figure 1: 网络结构示意图](fig1.png)
+<figure>
+  <img src="fig1.png" width="600">
+  <figcaption>Figure 1. 网络结构示意图。</figcaption>
+</figure>
 ## Abstract
 
 In this paper, we propose a novel task termed Omni-Referring Image Segmentation (OmniRIS) towards highly generalized image segmentation. Compared with existing unimodally conditioned segmentation tasks, such as RIS and visual RIS, OmniRIS supports the input of text instructions and reference images with masks, boxes or scribbles as omni-prompts. This property makes it can well exploit the intrinsic merits of both text and visual modalities, i.e., granular attribute referring and uncommon object grounding, respectively. Besides, OmniRIS can also handle various segmentation settings, such as one v.s. many and many v.s. many, further facilitating its practical use. To promote the research of OmniRIS, we also rigorously design and construct a large dataset termed OmniRef, which consists of 186,939 omni-prompts for 30,956 images, and establish a comprehensive evaluation system. Moreover, a strong and general baseline termed OmniSegNet is also proposed to tackle the key challenges of OmniRIS, such as omni-prompt encoding. The extensive experiments not only validate the capability of OmniSegNet in following omni-modal instructions, but also show the superiority of OmniRIS for highly generalized image segmentation. 
