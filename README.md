@@ -30,25 +30,7 @@ We propose a strong baseline, **OmniSegNet**, equipped with a novel Omni-Prompt 
 
 ## OmniRef Dataset
 ![Figure 1: 网络结构示意图](dataset_pip.png)
-### A Large-Scale Benchmark
-*   **186,939** omni-prompts
-*   **30,956** images
-*   Includes **Text**, **Mask**, **Box**, and **Scribble** prompts.
 
-The dataset covers diverse scenarios including single-target, multi-target, and no-target, providing a rigorous testbed for generalized segmentation.
-
-### Distribution of Segmentation Scenarios (in Thousands)
-*   **One vs. Many:** 69.5
-*   **One vs. One:** 59.9
-*   **No-Target:** 36.9
-*   **Many vs. Many:** 16.1
-*   **Many vs. One:** 4.5
-
----
-
-## Qualitative Results
-
-Visualization of OmniSegNet on unseen visual instances and complex text instructions. The results demonstrate the model's capability to handle One vs Many, Text Prompts, Visual Prompts, and No-Target scenarios effectively.
 
 
 
