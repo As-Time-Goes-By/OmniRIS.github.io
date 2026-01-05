@@ -2,7 +2,7 @@
 <h1 align="center">Omni-Referring Image Segmentation</h1>
 
 
-<div style="text-align:center">
+
 
 Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun², Xiaoshuai Sun¹, Yiyi Zhou¹, Rongrong Ji¹
 
@@ -10,7 +10,7 @@ Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun², Xiao
 ² Youtu Lab, Tencent
 ³ OpenGVLab, Shanghai AI Laboratory
 
-</div>
+
 
 
 [**📄 Paper (arXiv)**](https://arxiv.org/abs/2512.06862) | [**💻 Code **](https://github.com/As-Time-Goes-By/OmniSegNet) | [**💾 Dataset**](https://huggingface.co/datasets/TUZKI/OmniRef)
