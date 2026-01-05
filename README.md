@@ -38,6 +38,7 @@ We propose a strong baseline, **OmniSegNet**, equipped with a novel Omni-Prompt 
 
 
 <h2 align="center">OmniRef Dataset</h2>
+
 ![Figure 1: 网络结构示意图](dataset_pip.png)
 
 
