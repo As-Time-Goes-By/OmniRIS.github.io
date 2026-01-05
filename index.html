@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>OmniRIS</title>
+  <meta charset="UTF-8">
+  <title>Omni-Referring Image Segmentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      max-width: 1000px;
+      margin: 40px auto;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .authors, .affiliations, .links {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #0366d6;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+    }
+    pre {
+      background: #f6f8fa;
+      padding: 15px;
+      overflow-x: auto;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>OmniRIS</h1>
-  <p>Omni-Referring Image Segmentation</p>
+
+<h1>Omni-Referring Image Segmentation</h1>
+
+<div class="authors">
+  Qiancheng Zheng*¹, Yunhang Shen*², Gen Luo³, Baiyang Song¹, Xing Sun²,
+  Xiaoshuai Sun¹, Yiyi Zhou¹, Rongrong Ji¹
+</div>
+
+<div class="affiliations">
+  ¹ Xiamen University<br>
+  ² Youtu Lab, Tencent<br>
+  ³ OpenGVLab, Shanghai AI Laboratory
+</div>
+
+<div class="links">
+  <a href="https://arxiv.org/abs/2512.06862">Paper (arXiv)</a>
+  <a href="https://github.com/As-Time-Goes-By/OmniSegNet">Code</a>
+  <a href="https://huggingface.co/datasets/TUZKI/OmniRef">Dataset</a>
+</div>
+
+<hr>
+
+<img src="fig1.png" alt="Architecture overview">
+
+<h2>Abstract</h2>
+
+<p>
+In this paper, we propose a novel task termed Omni-Referring Image Segmentation (OmniRIS) towards highly generalized image segmentation. Compared with existing unimodally conditioned segmentation tasks, such as RIS and visual RIS, OmniRIS supports the input of text instructions and reference images with masks, boxes or scribbles as omni-prompts. This property makes it can well exploit the intrinsic merits of both text and visual modalities, i.e., granular attribute referring and uncommon object grounding, respectively. Besides, OmniRIS can also handle various segmentation settings, such as one v.s. many and many v.s. many, further facilitating its practical use. To promote the research of OmniRIS, we also rigorously design and construct a large dataset termed OmniRef, which consists of 186,939 omni-prompts for 30,956 images, and establish a comprehensive evaluation system. Moreover, a strong and general baseline termed OmniSegNet is also proposed to tackle the key challenges of OmniRIS, such as omni-prompt encoding.
+</p>
+
+<hr>
+
+<h2>OmniSegNet Architecture</h2>
+
+<p>
+We propose a strong baseline, <strong>OmniSegNet</strong>, equipped with a novel Omni-Prompt Encoder to handle multi-modal inputs and a specific training regime for complex segmentation settings.
+</p>
+
+<img src="method.png" alt="OmniSegNet Architecture">
+
+<hr>
+
+<h2>OmniRef Dataset</h2>
+
+<img src="dataset_pip.png" alt="OmniRef Dataset">
+
+<hr>
+
+<h2>Citation</h2>
+
+<pre>
+@article{zheng2025omniris,
+  title={Omni-Referring Image Segmentation},
+  author={Zheng, Qiancheng and Shen, Yunhang and Luo, Gen and Song, Baiyang
+  and Sun, Xing and Sun, Xiaoshuai and Zhou, Yiyi and Ji, Rongrong},
+  journal={arXiv preprint arXiv:2512.06862},
+  year={2025}
+}
+</pre>
+
 </body>
 </html>
